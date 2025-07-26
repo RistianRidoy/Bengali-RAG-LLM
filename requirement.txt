@@ -1,0 +1,22 @@
+# Core ML libraries
+torch
+transformers
+sentence-transformers
+faiss-cpu
+
+# Data processing
+pandas
+numpy
+openpyxl
+
+# Text processing
+langdetect
+unicodedata2
+
+# OCR and PDF processing (for your preprocessing)
+pytesseract
+pdf2image
+Pillow
+
+# Utilities
+tqdm
