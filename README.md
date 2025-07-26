@@ -27,14 +27,18 @@ It uses **FAISS for dense retrieval** and a **pretrained Bengali LLM** (`csebuet
 ```bash
 git clone https://github.com/RistianRidoy/Bengali-RAG-LLM.git
 cd Bengali-RAG-LLM
+```
 
 ### 2. Create environment
 
+```bash
 python -m venv bengali_rag_env
 bengali_rag_env\Scripts\activate   # Windows
 # or
 source bengali_rag_env/bin/activate  # macOS/Linux
+```
 
 ### 3. Install dependencies
 
+```bash
 pip install -r requirements.txt
